@@ -9,4 +9,4 @@
 
 # Acesse O Site Através Do Link
 
-<a href="https://zluksz.github.io/IFTM/" target="_blank" >IFTM | Lucas Souza Santos</a>
+<a href="https://zluksz.github.io/IFTM/" target="_blank" rel=" noopener noreferrer" >IFTM | Lucas Souza Santos</a>
