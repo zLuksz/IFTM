@@ -35,15 +35,15 @@ a:hover {
 
 #neubar {
   background: #fae8d2;
-  box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+  box-shadow: 4px 6px 12px rgb(0,0,0,0)
 }
 
 .nav-item .active {
   border-radius: 6px;
-  background: linear-gradient(145deg, #eee, #fae8d2);
+  background: linear-gradient(145deg, #969595, #969595);
 }
 #neubar .dropdown-menu a:hover {
-  color: #454545
+  color: #eee;
 }
 #neubar .nav-item {
   margin : 0;
@@ -51,10 +51,11 @@ a:hover {
 #neubar a {
   padding-left:12px;
   padding-right:12px;
+  color: #eee;
 }
 #neubar .dropdown-menu {
-  background : #545454
+  background : #eee
 }
 a.navbar-brand {
-  color: #454545
+  color: #eee
 }
