@@ -21,6 +21,11 @@ a:hover {
     
 }
 
+#formInscricoes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 @media (max-width: 600px) {
   #mainblocos div {
     display: grid;
@@ -30,12 +35,19 @@ a:hover {
   iframe {
     width: 100%;
   }
+  #formInscricoes {
+    display: block;
+    grid-template-columns: 1fr;
+  }
 }
+
+
 input[type=number]::-webkit-inner-spin-button,
     input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
         margin: 0;
     }
+
 
 
 #neubar {
