@@ -1,11 +1,11 @@
 # IFTM
 
-## Site com ofecerecimentos de noticias, cursos.
+## Site com ofecerecimentos de Noticias e Cursos.
 
 ### Olá meu nome e Lucas Souza Santos 👩‍💻.
-#### Cosntrui este site de uma atividade de um curso de Desenvolvedor Web.
-#### Cursando no SENAC.
+#### Construi este site de uma atividade do curso de Desenvolvedor Web SENAC GO.
 #### Site baseado no IFTM (Instituto Federal Triângulo Mineiro).
+### Usando HTML/ CSS/ JS / BOOTSTRAP
 
 # Acesse O Site Através Do Link
 
