@@ -13,7 +13,6 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #969595;
 }
 
 .main {
@@ -21,9 +20,14 @@ a:hover {
     
 }
 
+#main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 #formInscricoes {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  width: 40%;
 }
 
 @media (max-width: 600px) {
@@ -35,9 +39,13 @@ a:hover {
   iframe {
     width: 100%;
   }
-  #formInscricoes {
+  #main {
     display: block;
-    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+  #formInscricoes {
+    width: 100%;
   }
 }
 
@@ -57,7 +65,7 @@ input[type=number]::-webkit-inner-spin-button,
 
 .nav-item .active {
   border-radius: 6px;
-  background: linear-gradient(145deg, #969595, #969595);
+  background: linear-gradient(145deg, #082338, #063254);
 }
 #neubar .dropdown-menu a:hover {
   color: #eee;
